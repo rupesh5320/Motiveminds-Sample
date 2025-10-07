@@ -16,5 +16,7 @@ CLASS zcl_fill_b00lean IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
+  Data(name) = 'Rupesh'.
+  out->write( name ).
   ENDMETHOD.
 ENDCLASS.
