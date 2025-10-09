@@ -19,6 +19,7 @@ CLASS zcl_fill_b00lean IMPLEMENTATION.
   Data(Fname) = 'Rupesh'.
   Data(Lname) = 'Kumar'.
   out->write( Fname ).
+
   out->write( Lname ).
   ENDMETHOD.
 ENDCLASS.
